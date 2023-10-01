@@ -4,12 +4,16 @@ public class PalindromeChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Type a word: ");
-        String input = scanner.nextLine();
-        for (int i = 1; i <= 1; i++) {
-            palindromeCheck(input);
-        }
+        while (true) {
+            System.out.print("Type a word or stop to exit: ");
+            String input = scanner.nextLine();
 
+            if (input.equals("stop")) {
+                break;
+            } else {
+                palindromeCheck(input);
+            }
+        }
     }
     public static void palindromeCheck(String word) {
             char char0 = word.charAt(0);
