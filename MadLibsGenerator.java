@@ -33,5 +33,6 @@ public class MadLibsGenerator {
         System.out.println("When the " + noun1 + " caught up, it noticed that it was all a " + adjective3 + " dream.");
         System.out.println("Then, the " + noun1 + " " + verb3 + " and told its friends.");
         System.out.println("The end.");
+        scanner.close();
     }
 }

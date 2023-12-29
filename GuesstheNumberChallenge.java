@@ -25,5 +25,6 @@ public class GuesstheNumberChallenge {
                 isGuessing = false;
             }
         }
+        scanner.close();
     }
 }

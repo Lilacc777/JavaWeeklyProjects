@@ -14,6 +14,7 @@ public class PalindromeChecker {
                 palindromeCheck(input);
             }
         }
+        scanner.close();
     }
     public static void palindromeCheck(String word) {
             char char0 = word.charAt(0);
